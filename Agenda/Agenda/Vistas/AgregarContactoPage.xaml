@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Agenda.Vistas.AgregarContactoPage">
+    
+    <StackLayout>
+        <Entry x:Name="entryNombre" Placeholder="Nombre" />
+        <Entry x:Name="entryTelefono" Placeholder="Teléfono" />
+        <Button Text="Seleccionar Imagen" Clicked="OnSeleccionarImagenClicked" />
+        <Image x:Name="imagen" HeightRequest="200" />
+        <Button Text="Guardar" Clicked="OnGuardarClicked" />
+    </StackLayout>
+    
+</ContentPage>
